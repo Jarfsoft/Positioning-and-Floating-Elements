@@ -1,0 +1,73 @@
+/* ------------ Tags -------------*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+p { 
+  padding: 0;
+  margin: 0;
+}
+
+/* ---------- Utilities ----------- */
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.big-container {
+  width: 1000px;
+  margin: 10px auto;
+}
+
+.small-container {
+  width: 800px;
+  margin: 10px auto;
+}
+/* ---------Header Nav Bar----------- */
+.header-nav {
+  max-height: 5rem;
+  align-items: center;
+}
+
+.nav-icons {
+  height: 1rem;
+}
+
+.logo {
+  height: 4rem;
+}
+
+/*----------Buttons---------------*/
+.btn {
+  color: white;
+  background-color: #567b95;
+}
+
+/*-------------Article-------------*/
+.main-img {
+  max-width: 1000px;
+}
+
+.s-gray {
+  color: #666666;
+  font-size: small;
+}
+
+.pic-credit {
+  color: #888888;
+  font-size: smaller;
+}
