@@ -71,6 +71,10 @@ p {
   margin-left: 15px;
 }
 
+.top-border {
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
 /* ---------Header Nav Bar----------- */
 .header-nav {
   align-items: center;
@@ -210,4 +214,9 @@ p {
 
 .column4 {
   grid-column: 4;
+}
+
+.grid-img {
+  width: 100%;
+  height: auto;
 }
