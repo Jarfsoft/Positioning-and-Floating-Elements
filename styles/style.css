@@ -55,6 +55,22 @@ p {
   margin-left: 10px;
 }
 
+.grid-credits {
+  font-size: 13px;
+}
+.little-line {
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 10px;
+  background-color: #000;
+}
+
+.left-margin {
+  margin-left: 15px;
+}
+
 /* ---------Header Nav Bar----------- */
 .header-nav {
   align-items: center;
@@ -89,12 +105,14 @@ p {
 }
 
 .grid-text {
-  font-size: 14px;
+  font-size: 10px;
+  line-height: 15px;
 }
 
 /*----------Buttons---------------*/
 .btn {
   color: white;
+  border: 1px solid rgb(50, 104, 145);
   background-color: #567b95;
   font-weight: bold;
   border-radius: 3px;
@@ -102,6 +120,11 @@ p {
   margin-left: 5px;
   font-size: 11px;
   margin-right: 8px;
+}
+
+.flex .btn {
+  width: 50%;
+  height: 30px;
 }
 
 /*-------------Article-------------*/
@@ -124,6 +147,13 @@ p {
   font-size: smaller;
 }
 
+.sugg-credit {
+  color: #666666;
+  font-size: 11px;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
 /*--------Grid Article--------*/
 .grid {
   display: grid;
@@ -133,13 +163,33 @@ p {
   background-image: url("../images/theory.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  min-height: 800px;
-  font-size: 5px;
+  min-height: 516px;
+  padding: 10px 0;
 }
 
+.grid-2 {
+  width: 85%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 2fr 1fr;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1fr fr;
+  grid-gap: 20px;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .first-row {
   grid-row: 2;
+  height: auto;
 }
 
 .second-row {
