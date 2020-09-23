@@ -12,6 +12,17 @@ body {
   margin: 0;
 }
 
+footer {
+  font-size: 10px;
+  text-align: center;
+  color: #666;
+  width: 65%;
+  margin: 10px auto;
+  text-size-adjust: 100%;
+  padding: 30px;
+  border-top: 1px solid #ebebeb;
+}
+
 a {
   color: #326891;
 }
@@ -39,6 +50,10 @@ h4 {
 .flex {
   display: flex;
   justify-content: space-between;
+}
+
+.start {
+  justify-content: flex-start;
 }
 
 .column {
@@ -82,16 +97,14 @@ h4 {
   margin-left: 15px;
 }
 
-.top-border, .top-gray-border {
-  padding-top: 20px;
-}
-
 .top-border {
   border-top: 1px solid black;
+  padding-top: 20px;
 }
 
 .top-gray-border {
   border-top: 1px solid rgb(226, 226, 226);
+  padding-top: 10px;
 }
 /* ---------Header Nav Bar----------- */
 .header-nav {
@@ -180,6 +193,13 @@ h4 {
   text-align: right;
 }
 
+.sugg-date {
+  color: #666666;
+  font-size: 11px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
 /*--------Grid Article--------*/
 .grid {
   display: grid;
@@ -253,4 +273,32 @@ h4 {
   margin: 30px auto;
   border-top: 3px solid rgb(226, 226, 226);
   padding-top: 2px;
+}
+
+.black-small {
+  text-decoration: none;
+  color: black;
+  font-size: smaller;
+  text-align: left;
+}
+
+.left-border {
+  padding-left: 20px;
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+.bottom-padding {
+  padding-bottom: 10px;
+}
+
+.office::before { 
+  content: '';
+  background:url("./images/building-solid.svg");
+  width: 20; 
+  height: 20;
+  display: block; 
+}
+
+.material-icons {
+  font-size: 13px;
 }
