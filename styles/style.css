@@ -1,7 +1,11 @@
-/* ------------ Tags -------------*/
+/* ------------ Tags ------------- */
 header {
   border-bottom: 1px solid #e2e2e2;
   width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 
 body {
@@ -9,13 +13,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 22px 0 0 0;
-}
-
-header {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  background-color: white;
 }
 
 footer {
@@ -45,7 +42,7 @@ h3 {
   margin-bottom: 20px;
 }
 
-p { 
+p {
   padding: 0;
   margin: 0 0 15px 0;
   font-size: 20px;
@@ -81,13 +78,16 @@ aside {
 .end {
   justify-content: flex-end;
 }
+
 .around {
   justify-content: space-around;
 }
 
-.big-container, .small-container {
+.big-container,
+.small-container {
   margin: 10px auto 30px auto;
 }
+
 .big-container {
   width: 70%;
 }
@@ -103,6 +103,7 @@ aside {
 .grid-credits {
   font-size: 13px;
 }
+
 .little-line {
   width: 60px;
   content: '';
@@ -125,6 +126,7 @@ aside {
   border-top: 1px solid rgb(226, 226, 226);
   padding-top: 10px;
 }
+
 /* ---------Header Nav Bar----------- */
 .header-nav {
   align-items: center;
@@ -167,7 +169,7 @@ aside {
   float: right;
 }
 
-/*----------Buttons---------------*/
+/* ----------Buttons--------------- */
 .btn {
   color: white;
   border: 1px solid rgb(50, 104, 145);
@@ -183,44 +185,44 @@ aside {
 
 .large-bnt {
   width: 50%;
-  
 }
 
-/*-------------Article-------------*/
+/* -------------Article------------- */
 .main-img {
   max-width: 100%;
-  object-fit: fill  ;
+  object-fit: fill;
 }
 
 .s-gray, .pic-credit {
   line-height: 15px;
 }
+
 .s-gray {
-  color: #666666;
+  color: #666;
   font-size: small;
   margin-bottom: 5px;
 }
 
 .pic-credit {
-  color: #888888;
+  color: #888;
   font-size: smaller;
 }
 
 .sugg-credit {
-  color: #666666;
+  color: #666;
   font-size: 11px;
   margin-bottom: 5px;
   text-align: right;
 }
 
 .sugg-date {
-  color: #666666;
+  color: #666;
   font-size: 11px;
   margin-bottom: 5px;
   text-align: left;
 }
 
-/*--------Grid Article--------*/
+/* --------Grid Article-------- */
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -242,7 +244,8 @@ aside {
   grid-gap: 40px;
 }
 
-.grid-3, .grid-4 {
+.grid-3,
+.grid-4 {
   grid-gap: 20px;
   margin-top: 20px;
 }
@@ -250,7 +253,6 @@ aside {
 .grid-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-row: 1fr fr;
 }
 
 .grid-4 {
@@ -288,7 +290,7 @@ aside {
   height: auto;
 }
 
-/*--------Footer Nav -------------*/
+/* --------Footer Nav ------------- */
 .f-nav {
   width: 85%;
   margin: 30px auto;
@@ -320,12 +322,12 @@ aside {
   margin: 3px 0;
 }
 
-.footer a{
+.footer a {
   color: #666;
   text-decoration: none;
 }
 
-/*----------- Aside Section---------*/
+/* ----------- Aside Section--------- */
 .aside-img {
   width: 80px;
   height: 80px;
