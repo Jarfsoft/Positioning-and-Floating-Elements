@@ -48,7 +48,7 @@ To see how it looks like open the index.html file on your browser
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Jarfsoft/Positioning-and-Floating-Elements/issues).
 
 ## Show your support
 
@@ -60,8 +60,3 @@ We thank all the sites below where we have found lots of meaningful content
 
 - Intuit companies
 - W3Schools
-
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
