@@ -193,7 +193,8 @@ aside {
   object-fit: fill;
 }
 
-.s-gray, .pic-credit {
+.s-gray,
+.pic-credit {
   line-height: 15px;
 }
 
