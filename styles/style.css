@@ -8,19 +8,29 @@ body {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 0;
+  margin: 22px 0 0 0;
+}
+
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 
 footer {
-  font-size: 10px;
+  margin: auto;
+  width: 85%;
+  border-top: 1px solid #ebebeb;
+}
+
+.footer {
+  font-size: 12px;
   text-align: center;
-  color: #666;
-  width: 65%;
+  width: 80%;
   margin: 10px auto;
   text-size-adjust: 100%;
   padding: 30px;
-  border-top: 1px solid #ebebeb;
 }
 
 a {
@@ -46,6 +56,14 @@ h4 {
   margin: 0;
 }
 
+aside {
+  float: right;
+  position: absolute;
+  width: 230px;
+  right: 0;
+  margin-right: 70px;
+}
+
 /* ---------- Utilities ----------- */
 .flex {
   display: flex;
@@ -67,14 +85,15 @@ h4 {
   justify-content: space-around;
 }
 
+.big-container, .small-container {
+  margin: 10px auto 30px auto;
+}
 .big-container {
   width: 70%;
-  margin: 10px auto;
 }
 
 .small-container {
   width: 45%;
-  margin: 10px auto;
 }
 
 .icon {
@@ -159,11 +178,12 @@ h4 {
   margin-left: 5px;
   font-size: 11px;
   margin-right: 8px;
+  height: 30px;
 }
 
-.flex .btn {
+.large-bnt {
   width: 50%;
-  height: 30px;
+  
 }
 
 /*-------------Article-------------*/
@@ -224,6 +244,7 @@ h4 {
 
 .grid-3, .grid-4 {
   grid-gap: 20px;
+  margin-top: 20px;
 }
 
 .grid-3 {
@@ -291,14 +312,33 @@ h4 {
   padding-bottom: 10px;
 }
 
-.office::before { 
-  content: '';
-  background:url("./images/building-solid.svg");
-  width: 20; 
-  height: 20;
-  display: block; 
-}
-
 .material-icons {
   font-size: 13px;
+}
+
+.f-nav a {
+  margin: 3px 0;
+}
+
+.footer a{
+  color: #666;
+  text-decoration: none;
+}
+
+/*----------- Aside Section---------*/
+.aside-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 5px;
+}
+
+.aside-link {
+  font-size: 14px;
+  margin: auto 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.aside-art {
+  margin-bottom: 15px;
 }
